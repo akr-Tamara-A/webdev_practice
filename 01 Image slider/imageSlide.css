@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background-color: antiquewhite;
+  width: 640px;
+  height: 863px;
+  position: relative;
+}
+
+.image1 {
+  background-image: url(./14093289.jpg);
+  outline: 4px solid black;
+  background-size: contain;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  outline: 4px solid black;
+  background-image: url(./14093289-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: left;
+}
